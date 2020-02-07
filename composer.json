@@ -1,6 +1,6 @@
 {
-    "name": "scandipwa/store-graphql",
-    "version": "1.0.3",
+    "name": "scandipwa/gtm-graphql",
+    "version": "1.0.0",
     "description": "Magneto 2 Store related functionality extension",
     "keywords": [
         "magento2",
@@ -23,7 +23,7 @@
             "src/registration.php"
         ],
         "psr-4": {
-            "ScandiPWA\\StoreGraphQl\\": "src/"
+            "ScandiPWA\\GtmGraphQl\\": "src/"
         }
     }
 }

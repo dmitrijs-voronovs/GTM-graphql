@@ -1,0 +1,17 @@
+#/**
+# * ScandiPWA_GtmGraphQl
+# *
+# * @category    ScandiPWA
+# * @package     ScandiPWA_GtmGraphQl
+# * @author      Rihards Stasans <info@scandiweb.com>
+# * @copyright   Copyright (c) 2019 Scandiweb, Ltd (https://scandiweb.com)
+# */
+
+type Query {
+    getGtm: Gtm @resolver(class:"\\ScandiPWA\\GtmGraphQl\\Model\\Resolver\\GetGtm")
+}
+
+type Gtm {
+    enabled: Boolean
+    gtm_id: String
+}
