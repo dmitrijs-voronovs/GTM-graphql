@@ -1,0 +1,29 @@
+{
+    "name": "scandipwa/store-graphql",
+    "version": "1.0.3",
+    "description": "Magneto 2 Store related functionality extension",
+    "keywords": [
+        "magento2",
+        "module",
+        "scandipwa",
+        "pwa"
+    ],
+    "support": {
+        "email": "info@scandiweb.com"
+    },
+    "require": {
+        "magento/magento2-base": "^2.3.2"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "ScandiPWA\\StoreGraphQl\\": "src/"
+        }
+    }
+}
